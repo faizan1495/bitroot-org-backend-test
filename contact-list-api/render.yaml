@@ -1,0 +1,9 @@
+env:
+  - key: MYSQL_HOST
+    value: localhost
+  - key: MYSQL_USER
+    value: root
+  - key: MYSQL_PASSWORD
+    value: king
+  - key: MYSQL_DATABASE
+    value: contact_list
