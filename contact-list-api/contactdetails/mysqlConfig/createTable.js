@@ -8,7 +8,7 @@ connection.connect((err) => {
         console.log(err);
     } else {
         const createContactsTableQuery = `
-            CREATE TABLE IF NOT EXISTS contact_list.contactss (
+            CREATE TABLE IF NOT EXISTS contact_list.contacts (
                 contact_id INT NOT NULL AUTO_INCREMENT,
                 Name VARCHAR(45) NOT NULL,
                 Image_url VARCHAR(255) NULL,
@@ -24,7 +24,7 @@ connection.connect((err) => {
                 console.log("Contacts table created successfully");
 
                 const createPhoneNumbersTableQuery = `
-                CREATE TABLE IF NOT EXISTS contact_list.phone_numberss (
+                CREATE TABLE IF NOT EXISTS contact_list.phone_numbers (
                     phone_number_id INT NOT NULL AUTO_INCREMENT,
                     contact_id INT NULL,
                     mobile_no VARCHAR(10) NOT NULL,
@@ -35,7 +35,7 @@ connection.connect((err) => {
                     UNIQUE INDEX phone_no_UNIQUE (phone_no ASC),
                     CONSTRAINT fk_contact_id
                         FOREIGN KEY (contact_id)
-                        REFERENCES contact_list.contactss (contact_id)
+                        REFERENCES contact_list.contacts (contact_id)
                         ON DELETE NO ACTION
                         ON UPDATE NO ACTION
                 );

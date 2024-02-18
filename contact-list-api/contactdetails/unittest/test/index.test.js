@@ -34,7 +34,7 @@ describe("Rest API", () => {
         };
         // Send a PUT request to the update endpoint with the updated contact data
         const response = await request(app)
-            .put('/update/3') 
+            .put('/update/(inter contact_id)') 
             .send(updatedContactData);
     
         // Check if the response status code is 200
