@@ -1,6 +1,6 @@
 module.exports ={
-    host : '',
-    user : '',
-    password : '',
-    database : ''
+    host : '127.0.0.1',
+    user : 'root',
+    password : 'king',
+    database : 'contact_list'
 }
