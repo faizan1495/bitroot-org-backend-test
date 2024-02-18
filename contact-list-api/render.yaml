@@ -1,6 +1,6 @@
 env:
   - key: MYSQL_HOST
-    value: localhost
+    value: 127.0.0.1
   - key: MYSQL_USER
     value: root
   - key: MYSQL_PASSWORD
