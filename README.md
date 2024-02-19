@@ -20,8 +20,22 @@
   Endpoint:  - https://contact-list-q1kk.onrender.com/fetchallcontacts
 # insert
   Endpoint:  - https://contact-list-q1kk.onrender.com/insert
+  body data: - enter the data
+  {
+    "Name":"",
+    "Image_url":"",
+    "Mobile_No":"",
+    "Phone_No":""
+  }
 # update
   Endpoint:  - https://contact-list-q1kk.onrender.com/contact_id
+  body data: - enter the data
+  {
+    "Name":"",
+    "Image_url":"",
+    "Mobile_No":"",
+    "Phone_No":""
+  }
 # search
   Endpoint:  - https://contact-list-q1kk.onrender.com/search/(name or PhoneNumber)
 # csv file
