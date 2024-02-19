@@ -1,6 +1,6 @@
 module.exports ={
-    host : '127.0.0.1',
-    user : 'root',
-    password : 'king',
-    database : 'contact_list'
+    host : 'b26porlqgdshdm4um0yo-mysql.services.clever-cloud.com',
+    user : 'u85yt7hm4euufnkp',
+    password : 'Rlc9msKe2jOk8B9Jm2Bx',
+    database : 'b26porlqgdshdm4um0yo'
 }
