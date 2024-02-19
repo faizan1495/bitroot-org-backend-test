@@ -10,20 +10,22 @@
 - in terminal run this command 
 - node server.js
 
-# Test the API in PostMan
+# my host link-https://contact-list-q1kk.onrender.com/
 
+# Test the API in PostMan
+ 
 # For Delete
-  Endpoint:  - http://localhost:8088/delete/(enter the name to delete )
+  Endpoint:  - https://contact-list-q1kk.onrender.com/delete/(enter the name to delete )
 # fetchallcontacts
-  Endpoint:  - http://localhost:8088/fetchallcontacts
+  Endpoint:  - https://contact-list-q1kk.onrender.com/fetchallcontacts
 # insert
-  Endpoint:  - http://localhost:8088/insert
+  Endpoint:  - https://contact-list-q1kk.onrender.com/insert
 # update
-  Endpoint:  - http://localhost:8088/update/contact_id
+  Endpoint:  - https://contact-list-q1kk.onrender.com/contact_id
 # search
-  Endpoint:  - http://localhost:8088/search/(name or PhoneNumber)
+  Endpoint:  - https://contact-list-q1kk.onrender.com/search/(name or PhoneNumber)
 # csv file
-  Endpoint:  - http://localhost:8088/csv
+  Endpoint:  - https://contact-list-q1kk.onrender.com/csv
 # UnitTesting
 -For unit testing, ensure you've entered the test data as commented out in the code.
 -Then, run the index.test.js file.
